@@ -19,7 +19,7 @@
 
 /*informacao da maquina*/
 .informacoes{
-    padding-left: 30%;
+    padding-left: 25%;
     padding-top: 3%;
     width:100%;
     height: auto;
@@ -54,7 +54,7 @@
 }
 
 /*informacão do funcionario*/
-.informacoes .funcionario img{
+.funcionario img{
     width: 100px;
     height: 100px;
 }
