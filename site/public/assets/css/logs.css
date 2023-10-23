@@ -1,0 +1,14 @@
+.tabela{
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+th{
+    background-color: black;
+    color: aliceblue;
+    width: 250px;
+}
+
+td{
+   text-align: center;
+}
