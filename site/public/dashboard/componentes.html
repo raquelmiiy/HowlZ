@@ -70,12 +70,12 @@
          <div class="grafico-container">
             <canvas id="gpuChart"></canvas>
         </div>
+         <div class="grafico-container">
+            <canvas id="cpuChart"></canvas>
+        </div>
     </div>
 
     <div class="graficos">
-        <div class="grafico-container">
-            <canvas id="cpuChart"></canvas>
-        </div>
         <div class="grafico-container">
             <canvas id="memChart"></canvas>
         </div>
@@ -94,6 +94,10 @@
     var diskData = [40, 45, 38, 42, 48];
     var gpuData = [70, 75, 80, 78, 72];
 
+    
+    Chart.defaults.borderColor = '#7A0BC0';
+    Chart.defaults.color = '#fff';
+    
     // CPU
     var ctxCpu = document.getElementById('cpuChart').getContext('2d');
     var cpuChart = new Chart(ctxCpu, {
@@ -105,8 +109,9 @@
                 data: cpuData,
                 borderColor: 'red',
                 fill: false,
-            }]
+            },]
         },
+        
     });
 
     // Memória 
