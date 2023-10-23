@@ -3,12 +3,18 @@
     padding-top: 10%;
 }
 
+table{
+    background-color: aliceblue;
+}
+
 th{
     background-color: black;
     color: aliceblue;
     width: 250px;
+    padding: 10px;
 }
 
 td{
    text-align: center;
+   padding: 10px;
 }
